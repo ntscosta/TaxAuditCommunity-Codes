@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{6F04B167-A03F-4206-8481-60213C3EF9B9}</ProjectGuid>
+    <Configurations>netstandard-Debug;netstandard-Release</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AppContext.Switch.cs" />
+    <Compile Include="AppContext.Switch.Validation.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{9C524CA0-92FF-437B-B568-BCE8A794A69A}</ProjectGuid>
+    <Configurations>netstandard-Debug;netstandard-Release;netstandard1.3-Debug;netstandard1.3-Release</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="System.IO.Pipelines.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetGroup)' == 'netstandard1.3'">
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetsNetStandard)' == 'true'">
+    <Reference Include="System.Memory" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\System.Buffers\ref\System.Buffers.csproj" />
+    <ProjectReference Include="..\..\System.Threading.Tasks.Extensions\ref\System.Threading.Tasks.Extensions.csproj" />
+  </ItemGroup>
+</Project>

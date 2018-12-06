@@ -1,0 +1,14 @@
+﻿1  - Arquivo xml gravado com sucesso
+2  - NFeResultException.DbUpdateConcurrencyException
+3  - NFeResultException.Exception
+5  - não é um arquivo de NFe valido ou o arquivo não foi transmitido para a SEFAZ.
+6  - XmlException
+7  - Exception - NFe
+8  - Exception - NFe
+9  - "Concluido a verificação completa"
+10 - ArgumentException - Prosoft
+11 - Exception - Prosoft
+12 - ArgumentException - NFe
+13 - Exception - NFe
+14 - ErrorEventArgs
+15 - Exception OnChanged - Prosoft

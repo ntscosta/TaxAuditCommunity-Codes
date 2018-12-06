@@ -1,0 +1,10 @@
+﻿namespace startProjectTest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}

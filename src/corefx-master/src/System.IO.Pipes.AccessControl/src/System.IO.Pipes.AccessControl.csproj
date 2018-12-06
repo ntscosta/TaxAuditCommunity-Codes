@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>System.IO.Pipes.AccessControl</AssemblyName>
+    <ProjectGuid>{40059634-BB03-4A6F-8657-CCE2D376BC8B}</ProjectGuid>
+    <IncludeDefaultReferences>false</IncludeDefaultReferences>
+    <IsPartialFacadeAssembly>true</IsPartialFacadeAssembly>
+    <Configurations>netcoreapp-Windows_NT-Debug;netcoreapp-Windows_NT-Release;uap-Windows_NT-Debug;uap-Windows_NT-Release</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Resources.ResourceManager" />
+    <ProjectReference Include="..\..\System.IO.Pipes\src\System.IO.Pipes.csproj" />
+    <ProjectReference Include="..\..\System.Security.AccessControl\src\System.Security.AccessControl.csproj" />
+  </ItemGroup>
+</Project>
